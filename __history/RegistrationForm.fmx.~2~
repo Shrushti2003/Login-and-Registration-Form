@@ -1,0 +1,120 @@
+object MyRegistrationForm: TMyRegistrationForm
+  Left = 0
+  Top = 0
+  Caption = 'Registration'
+  ClientHeight = 444
+  ClientWidth = 364
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    StyledSettings = [Family]
+    Position.X = 32.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Trimming = None
+    Text = 'Name:'
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 32.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Trimming = None
+    Text = 'Age:'
+    TabOrder = 1
+  end
+  object NameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    TextSettings.FontColor = claMidnightblue
+    Position.X = 144.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 46.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family]
+  end
+  object AgeEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    TextSettings.FontColor = claMidnightblue
+    Position.X = 144.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 46.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family]
+  end
+  object Label3: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 32.000000000000000000
+    Position.Y = 208.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Trimming = None
+    Text = 'Username:'
+    TabOrder = 4
+  end
+  object UsernameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    TextSettings.FontColor = claMidnightblue
+    Position.X = 144.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family]
+  end
+  object Label4: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 32.000000000000000000
+    Position.Y = 296.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Trimming = None
+    Text = 'Password:'
+    TabOrder = 6
+  end
+  object PasswordEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 7
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    TextSettings.FontColor = claMidnightblue
+    Position.X = 144.000000000000000000
+    Position.Y = 280.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family]
+  end
+  object SaveButton: TButton
+    StyledSettings = [Family]
+    Position.X = 88.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Save'
+    TextSettings.Font.Size = 16.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    TextSettings.FontColor = claDarkred
+    TextSettings.Trimming = None
+    OnClick = SaveButtonClick
+  end
+end

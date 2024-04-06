@@ -1,0 +1,47 @@
+object MyMainForm: TMyMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Main'
+  ClientHeight = 192
+  ClientWidth = 508
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object LoginNavigationButton: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Login'
+    TextSettings.Trimming = None
+    OnClick = LoginNavigationButtonClick
+  end
+  object RegistrationNavigationButton: TButton
+    Position.X = 280.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Registration'
+    TextSettings.Trimming = None
+    OnClick = RegistrationNavigationButtonClick
+  end
+  object Label1: TLabel
+    StyledSettings = [Size]
+    Position.X = 656.000000000000000000
+    Position.Y = 440.000000000000000000
+    Size.Width = 225.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Gadugi'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claDarkslategray
+    TextSettings.Trimming = None
+    Text = 'Project By :- Shrushti Swarnakar'
+    TabOrder = 2
+  end
+end
