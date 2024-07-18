@@ -15,6 +15,7 @@ New users are welcomed to our platform through the Registration Form, an intuiti
 ## Conclusion:
 In conclusion, our GUI application is dedicated to optimizing user access management through intuitive Login and Registration Forms. By prioritizing user experience and security within the graphical interface, we aim to provide users with a seamless and secure platform to interact with our application effortlessly. Through this project, we endeavor to elevate the usability and trustworthiness of our GUI application among our user base.
 
+[Youtube Link]
 
 
 
