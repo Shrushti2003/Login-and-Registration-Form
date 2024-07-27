@@ -67,7 +67,8 @@ The primary goal of this project is to create an accessible and secure platform 
 ## Conclusion
 The Login and Registration Form application provides a simple and effective way to manage user credentials. It serves as a practical tool for user authentication and offers an educational example of basic registration and login processes in C++. Users can easily register and log in, with their data securely managed.
 
-[YouTube Video Link]
+[YouTube video link for the Login and Registration Form](https://youtu.be/ViQeD_Y5Q_c?si=bqNWuHJs21cOCTAx)
 
+This video offers a concise and clear overview of your Login and Registration Form project, reflecting the simplicity and functionality of the application.
 
 ---
